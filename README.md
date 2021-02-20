@@ -75,3 +75,10 @@ the motherboard.  The baseplate is 3mm thick and M.2s are generally
 The baseplate was designed in Fusion 360.  [My
 design](https://a360.co/3drTb7T) is available if you wish to make
 modifications.
+
+## Resources
+
+Additional resources:
+
+* [ServeTheHome.com's Moonshot Unofficial Reference
+  Guide](https://forums.servethehome.com/index.php?resources/hp-hpe-moonshot-unofficial-reference-guide.19/)
