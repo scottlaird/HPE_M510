@@ -2,6 +2,41 @@
 
 Tools and notes for working with HPE M510 Moonshot cartridges.
 
+## Introduction
+
+The [HPE ProLiant
+M510](https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=c05069171)
+is a small blade-like cartidge computer that can be used with several
+chassis in the HPE Moonshot family, including the 45-slot [Moonshot
+1500
+chassis](https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=c04111337),
+the 4-slot [EL4000
+chassis](https://h20195.www2.hpe.com/v2/Getdocument.aspx?docname=c05211200),
+and the 1-slot
+[EL1000](https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=c05211199[).
+
+The M510 comes with either an 8- or 16-core Broadwell [Xeon D
+CPU](https://en.wikipedia.org/wiki/List_of_Intel_Broadwell-based_Xeon_microprocessors#Xeon_D-15xx_(uniprocessor,_SoC)),
+4 DIMM slots, and room for up to 3 M.2 SSDs (2 NVMe, 1 SATA).
+
+## Known-working Peripherals
+
+### Memory
+
+* Samsung 32GB PC4-2400T-R DDR4 ECC RDIMM (M393A4K40BB1-CRC0Q)
+
+This is what I had at hand, and have used with other Xeon-D boards.
+Seems to work fine.  HP's iLO correctly identifies it as non-HPE RAM,
+but doesn't otherwise complain.
+
+### SSDs
+
+* Samsung 970 EVO
+* Sabrent Rocket 4.0
+
+I suspect that anything sane will work fine.
+
+
 ## Heat Sinks
 
 Many used M510 cartridges come without heatsinks or the mounting base
