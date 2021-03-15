@@ -94,8 +94,8 @@ interface to the back, all for around $35 each quantity 5.
 
 They assigned this heatsink a part number of `S08EKD03-A`.  It should
 be possible to order additional copies of this part number directly
-from them.  If ordered in quantity, the price drops quite a bit;
-quantity 50 they're under $10 each.
+from them without involving me at all.  If ordered in quantity, the
+price drops quite a bit; quantity 50 they're under $10 each.
 
 This revision of the heatsink is *slightly* wider than it should
 probably be, as it interferes slightly with the second DIMM on the CPU
@@ -107,7 +107,7 @@ clear the top of the DIMM.  See image below.
 To mount the heatsink, I used [12mm M3
 screws](https://www.mcmaster.com/96817A912/).  These specific ones are
 designed for screwing into plastic and work fine, although 11mm screws
-would be better.  10mm is too short to get started.  Adding a washing
+would be better.  10mm is too short to get started.  Adding a washer
 would probably limit how far the screws protrude in the back.
 
 ### Images
@@ -118,7 +118,7 @@ would probably limit how far the screws protrude in the back.
 #### The opposite side of the M510, showing a heatsink base and 2 M.2 cards.
 ![The baseplate with 2 NVMe M.2 cards](M510_M2s.jpg)
 
-#### The pre-install thermal interface material.
+#### The pre-installed thermal interface material.
 ![Thermal interface on the back of the heatsink](M510_heatsink_interface.jpg)
 
 #### DIMM overlap.  This shouldn't prevent all 4 DIMM sockets from being used, but it's a very tight fit.
