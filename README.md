@@ -42,26 +42,35 @@ I suspect that anything sane will work fine.
 Many used M510 cartridges come without heatsinks or the mounting base
 plate that holds the heatsinks in place.  Replacement HPE heat sinks
 are generally unavailable online, and (as of February 2021) list for
-more than the current selling price of M510 cartridges.  I am working
-on sourcing a workable replacement.
+more than the current selling price of M510 cartridges.
 
 The heatsink base plate also contains the mounting points for the M.2
 cards on the bottom side of the cartridge.  So, without a baseplate,
-there's no safe way to mount M.2s.  I've designed a custom
-3D-printable base plate and included a STL
-[here](M510+Heatsink_Mount.stl').  This is designed to connect to the
-heatsink using M3 screws which thread directly into the plastic of the
-baseplate.  I'd generally prefer to use threaded brass inserts, but
-there is only a tiny amount of clearance between the baseplate and the
-second DIMM slot, and every single brass insert that I can find is too
-thick.
+there's no safe way to mount M.2s.
+
+I have been working on sourcing a workable replacement for both the
+heatsink and the baseplate.  As of March 2021, they both seem to work
+well enough for my uses.
+
+For the base plate, I've designed a custom 3D-printable version and
+included a STL [here](M510+Heatsink_Mount.stl').  This is designed to
+connect to the heatsink using M3 screws which thread directly into the
+plastic of the baseplate.  I'd generally prefer to use threaded brass
+inserts, but there is only a tiny amount of clearance between the
+baseplate and the second DIMM slot, and every single brass insert that
+I can find is too thick.
+
+The plate can be printed on any 3D printer, although the M510 may get
+hot enough for PLA to fail.  I ended up having Shapeways print a few
+using SLS-fused nylon for around $15 each.  Printing in ABS would
+almost certainly be fine and be much cheaper.
 
 The baseplate has room for up to 3 M.2 SSDs.  The two NVMe-compatible
 slots have screw holes for 2280 and 22110 cards.  One of them also has
-a hole for a 2260 M.2.  In addition, the SATA M.2 slot should be able
-to fit either a 2242 or 2260 card, although this is untested.  The M.2
-cards should be screwed in using a short M2 screw with a plastic washer.
-Either 3mm or 4mm screws should work when used with a washer.
+a hole for a 2260 M.2.  In addition, the SATA M.2 slot can fit either
+a 2242 or 2260 card.  The M.2 cards should be screwed in using a short
+M2 screw with a plastic washer.  Either 3mm or 4mm screws should work
+when used with a washer.
 
 Here's what I'm using, but any similar screw should work.
 
@@ -75,6 +84,35 @@ the motherboard.  The baseplate is 3mm thick and M.2s are generally
 The baseplate was designed in Fusion 360.  [My
 design](https://a360.co/3drTb7T) is available if you wish to make
 modifications.
+
+I was unable to find any pre-made heatsinks with the right hole
+placement, so I ordered a batch of semi-custom heatsinks from
+[Alpha](https://www.alphanovatech.com/).  They cut one of their
+standard heatsink stocks down to size, milled 4 holes, shaved 1mm off
+the thickness, annodized the whole thing, and added a thermal
+interface to the back, all for around $35 each quantity 5.
+
+They assigned this heatsink a part number of `S08EKD03-A`.  It should
+be possible to order additional copies of this part number directly
+from them.  If ordered in quantity, the price drops quite a bit;
+quantity 50 they're under $10 each.
+
+This revision of the heatsink is *slightly* wider than it should
+probably be, as it interferes slightly with the second DIMM on the CPU
+side of the M510 board.  If you wish to use both DIMMs, then you'll
+probably need to remove the heatsink in order to install the second
+DIMM, although you can re-install it after and it should *barely*
+clear the top of the DIMM.  See image below.
+
+### Images
+
+![The heatsink on an M510](M510_with_heatsink.jpg)
+
+![The baseplate with 2 NVMe M.2 cards](M510_M2s.jpg)
+
+![Thermal interface on the back of the heatsink](M510_heatsink_interface.jpg)
+
+![Heatsink overlap with DIMM](M510_DIMM.jpg)
 
 ## Resources
 
