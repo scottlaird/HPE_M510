@@ -6,7 +6,7 @@ Tools and notes for working with HPE M510 Moonshot cartridges.
 
 The [HPE ProLiant
 M510](https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=c05069171)
-is a small blade-like cartidge computer that can be used with several
+is a small blade-like cartridge computer that can be used with several
 chassis in the HPE Moonshot family, including the 45-slot 4.3U
 [Moonshot 1500
 chassis](https://h20195.www2.hpe.com/v2/getdocument.aspx?docname=c04111337),
