@@ -112,13 +112,17 @@ would probably limit how far the screws protrude in the back.
 
 ### Images
 
-![The heatsink on an M510](M510_with_heatsink.jpg "The heatsink on an M510 cartridge.")
+#### The heatsink on an M510 cartridge.
+![The heatsink on an M510](M510_with_heatsink.jpg)
 
-![The baseplate with 2 NVMe M.2 cards](M510_M2s.jpg "The opposite side of the M510, showing a heatsink base and 2 M.2 cards.")
+#### The opposite side of the M510, showing a heatsink base and 2 M.2 cards.
+![The baseplate with 2 NVMe M.2 cards](M510_M2s.jpg)
 
-![Thermal interface on the back of the heatsink](M510_heatsink_interface.jpg "The pre-install thermal interface material.")
+#### The pre-install thermal interface material.
+![Thermal interface on the back of the heatsink](M510_heatsink_interface.jpg)
 
-![Heatsink overlap with DIMM](M510_DIMM.jpg "DIMM overlap.  This shouldn't prevent all 4 DIMM sockets from being used, but it's a very tight fit.")
+#### DIMM overlap.  This shouldn't prevent all 4 DIMM sockets from being used, but it's a very tight fit.
+![Heatsink overlap with DIMM](M510_DIMM.jpg)
 
 ## Resources
 
