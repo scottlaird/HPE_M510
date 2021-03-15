@@ -104,6 +104,12 @@ probably need to remove the heatsink in order to install the second
 DIMM, although you can re-install it after and it should *barely*
 clear the top of the DIMM.  See image below.
 
+To mount the heatsink, I used [12mm M3
+screws](https://www.mcmaster.com/96817A912/).  These specific ones are
+designed for screwing into plastic and work fine, although 11mm screws
+would be better.  10mm is too short to get started.  Adding a washing
+would probably limit how far the screws protrude in the back.
+
 ### Images
 
 ![The heatsink on an M510](M510_with_heatsink.jpg)
